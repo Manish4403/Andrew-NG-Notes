@@ -149,7 +149,7 @@ Here is the course summary as given on the course [link](https://www.coursera.or
 
 - In order to to use deep neural networks we really need to use **paddings**.
 - In the last section we saw that a `6x6` matrix convolved with `3x3` filter/kernel gives us a `4x4` matrix.
-- To give it a general rule, if a matrix `nxn` is convolved with `fxf` filter/kernel give us `n-f+1,n-f+1` matrix. 
+- To give it a general rule, if a matrix `nxn` is convolved with `fxf` filter/kernel give us `(n-f+1) x (n-f+1)` matrix. 
 - The convolution operation shrinks the matrix if f>1.
 - We want to apply convolution operation multiple times, but if the image shrinks we will lose a lot of data on this process. Also the edges pixels are used less than other pixels in an image.
 - So the problems with convolutions are:
