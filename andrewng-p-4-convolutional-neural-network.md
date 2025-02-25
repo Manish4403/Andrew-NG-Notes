@@ -290,6 +290,7 @@ Here is the course summary as given on the course [link](https://www.coursera.or
   - s : stride.
   - Padding are rarely uses here.
   - Max or average pooling.
+  - common values `f = 2, s = 2` or `f = 3, s = 2`.
 
 ### Convolutional neural network example
 
