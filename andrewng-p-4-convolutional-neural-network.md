@@ -278,6 +278,7 @@ Here is the course summary as given on the course [link](https://www.coursera.or
   - This example has `f = 2`, `s = 2`, and `p = 0` hyperparameters
 - The max pooling is saying, if the feature is detected anywhere in this filter then keep a high number. But the main reason why people are using pooling because its works well in practice and reduce computations.
 - Max pooling has no parameters to learn.
+- If a feature is detected then set that value as max. This is the fundamental idea. 
 - Example of Max pooling on 3D input:
   - Input: `4x4x10`
   - `Max pooling size = 2` and `stride = 2`
